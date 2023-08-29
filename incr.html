@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container fluid">
+        <div class="container-sm-4 bg-danger text-center">
+            <h2 class="p-2,mt-2,mb-3">
+                <b>A SIMPLE INCREMENTER AND CALCULATOR</b>
+            </h2>
+        </div>
+    </div>
+    <div class="container mt-5 mb-2 text-center">
+        <h3 id="num1"><strong>ENTER VALUE1</strong></h3><br>
+        <button  type="button" id="btn" class="btn btn-primary rounded-pill">+</button>
+        <button type="button" id="btn1" class="btn btn-primary rounded-pill">R</button>
+        <button type="button" id="btn2" class="btn btn-primary rounded-pill">-</button>
+    </div>
+    <div class="container mt-5 mb-2 text-center">
+        <h3 id="num2"><strong>ENTER VALUE 2</strong></h3><br>
+        <button  type="button" id="btn3" class="btn btn-primary rounded-pill">+</button>
+        <button type="button" id="btn4" class="btn btn-primary rounded-pill">R</button>
+        <button type="button" id="btn5" class="btn btn-primary rounded-pill">-</button>
+    </div>
+    <div class="container-sm-4 mt-4 mb-3 text-center bg-danger">
+        <input type="radio"  id="add1" name="value1" value="ADD"> <strong> ADD</strong><br>
+        <input class="me-1" type="radio"  id="sub1" name="value1" value="SUB"> <strong>SUB</strong><br>
+        <input class="me-1" type="radio"  id="mul1" name="value1" value="MUL"> <strong>MUL</strong><br>
+        <input class="me-3" type="radio"  id="div1" name="value1" value="DIV"><strong>DIV</strong><br>
+    </div>
+    <div class="container mb-2 text-center">
+        <p class="bg-dark text-white" id="ans"></p>
+        <button type="button" class="btn btn-primary rounded-pill" id="finbtn">RESULT</button>
+    </div>
+    <br>
+    <br>
+    <footer class="bg-light text-center text-white mb-0">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <img src="https://img.icons8.com/?size=512&id=118467&format=png" alt="22" style="width:30px;height:30px" class="ms-1 me-2 mb-1">
+        <img src="https://img.icons8.com/?size=512&id=32309&format=png" alt="22" style="width:30px;height:30px" class="ms-2 me-2 mb-1">
+        <img src="https://img.icons8.com/?size=512&id=446&format=png" alt="22" style="width:30px;height:30px" class="ms-2 me-2 mb-1">
+        <img src="https://img.icons8.com/?size=512&id=12599&format=png" alt="22" style="width:30px;height:30px"class="ms-1 me-1 mb-1">
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="#">DUMMYCALCI.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="incr.js"></script>
+  </body>
+</html>
